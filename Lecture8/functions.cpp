@@ -39,6 +39,32 @@ int sumof2nos(){
 }
 
 
+// void sum(int a){
+// 	cout<<a<<endl;
+// }
+
+
+// void sum(int a,int b){
+// 	cout<<a+b<<endl;
+// }
+
+
+// void sum(int a,int b,int c){
+// 	cout<<a+b+c<<endl;
+// }
+
+
+// void sum(int a,int b,int c,int d){
+// 	cout<<a+b+c+d<<endl;
+// }
+
+
+sum(int a=0,int b=0,int c=0,int d=0,int e=0){//default arguments
+	cout<<a+b+c+d+e<<endl;
+
+}
+
+
 void mult(int a,int b);//forawrd decleration
 
 int main(){
@@ -102,6 +128,12 @@ int main(){
 
 	// task 
 	// cout<<"mult is : "<<a*b<<endl;
+
+
+	sum(5);
+	sum(6,7);
+	// sum(7,5,3);
+	sum(9,84,2,8);
 	
 
 
@@ -117,6 +149,11 @@ void mult(int a,int b){//parametrs/arguments
 	cout<<"mult is : "<<mu<<endl;
 
 
+}
+
+
+bool israinig(){
+	return true;
 }
 
 
