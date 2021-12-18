@@ -14,11 +14,27 @@ int main(){
 
 	// bubble sort
 
+
+	// bubble sort
+
+	for(int i=0;i<=n-2;i++){
+		for(int j=0;j<=n-2-i;j++){ //optimised
+			if(arr[j]>arr[j+1]){
+				// swap
+
+				swap(arr[j],arr[j+1]);
+
+			}
+
+		}
+
+	}
+
 	for(int i=0;i<=n-2;i++){
 			int flag=0;
 
-		fMosina@123
-		or(int j=0;j<=n-2-i;j++){
+
+		for(int j=0;j<=n-2-i;j++){
 		if(arr[j]>arr[j+1]){
 			
 		// 3rd variable 
