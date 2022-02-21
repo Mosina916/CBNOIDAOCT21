@@ -204,26 +204,28 @@ int main(){
 	node*head=NULL;
 	node*tail=NULL;
 
-	// int n,data;
-	// cin>>n;
-	// for(int i=0;i<n;i++){
-	// 	cin>>data;
-	// 	insertatfront(head,tail,data);
-	// }
-	// printll(head);
-	insertatfront(head,tail,1);
-	insertatfront(head,tail,16);
-	insertatfront(head,tail,9);
-	insertatfront(head,tail,6);
-
-	// // printll(head);
-	// // printll(head);
-	insertattail(head,tail,17);
-		insertattail(head,tail,23);
-
+	int n,data;
+	cin>>n;
+	for(int i=0;i<n;i++){
+		cin>>data;
+		insertatfront(head,tail,data);
+	}
 	printll(head);
+	bubblesort(head);
+	printll(head);
+	// insertatfront(head,tail,1);
+	// insertatfront(head,tail,16);
+	// insertatfront(head,tail,9);
+	// insertatfront(head,tail,6);
 
-	cout<<"mid of ll is "<<midoflinkedlist(head)<<endl;
+	// // // printll(head);
+	// // // printll(head);
+	// insertattail(head,tail,17);
+	// 	insertattail(head,tail,23);
+
+	// printll(head);
+
+	// cout<<"mid of ll is "<<midoflinkedlist(head)<<endl;
 	// insertattail(head,tail,23);
 	// // printll(head);
 	// insertatanypos(head,tail,90,3);
